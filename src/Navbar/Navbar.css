@@ -6,9 +6,10 @@
 .nav-content {
   display: flex;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center;
   height: 8rem;
+  margin: 0 1rem;
 }
 .nav-content .nav-logo {
   display: flex;
@@ -19,14 +20,14 @@
   height: 4.8rem;
 }
 .nav-content span {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-family: "Oxanium", sans-serif;
   font-weight: 800;
 }
 .nav-content ul {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
 }
 .nav-content ul li {
   list-style: none;
@@ -47,9 +48,9 @@
 .nav-btn {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
-.nav-content .contact-btn {
+.nav-content .nav-btn .contact-btn {
   background: rgb(142, 41, 249);
   background: linear-gradient(
     160deg,
@@ -67,9 +68,51 @@
   gap: 0.8rem;
   cursor: pointer;
 }
-.nav-content .contact-btn img {
+.nav-content .nav-btn a {
+  padding: 0.5rem;
 }
-.nav-content a {
+.nav-content .contact-btn:hover {
+  border: 1px solid rgb(142, 41, 249);
+  background: rgba(255, 255, 255, 8%);
 }
-.nav-content a img {
+.nav-content .menu-btn {
+  font-size: 2.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background: rgba(255, 255, 255, 8%);
+  color: #fff;
+  display: none;
+}
+/* Responsive */
+@media (max-width: 968px) {
+  .nav-content {
+    gap: 1rem;
+  }
+  .nav-content .nav-logo img {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+  .nav-content span {
+    font-size: 1.5rem;
+  }
+  .nav-content .nav-logo img {
+    gap: 2rem;
+  }
+  .nav-content ul li a.menu-item {
+    font-size: 1.5rem;
+  }
+  .nav-content .nav-btn .contact-btn {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 768px) {
+  .nav-content .menu-btn {
+    display: block;
+    margin: 0 0.5rem;
+  }
+  .nav-content ul,
+  .nav-btn {
+    display: none;
+  }
 }

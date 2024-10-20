@@ -12,7 +12,6 @@ const Navbar = () => {
               HARIF <br /> NARIPPATTA
             </span>
           </div>
-
           <ul>
             <li className="active">
               <a href="#" className="menu-item">
@@ -44,6 +43,9 @@ const Navbar = () => {
               <img src="/light-theme.svg" alt="" />
             </a>
           </div>
+          <button className="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
       </div>
     </nav>
