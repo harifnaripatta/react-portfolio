@@ -1,0 +1,75 @@
+.nav-wrapper {
+  background: rgba(255, 255, 255, 8%);
+  position: sticky;
+  top: 0;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  height: 8rem;
+}
+.nav-content .nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-content .nav-logo img {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.nav-content span {
+  font-size: 1.6rem;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 800;
+}
+.nav-content ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.nav-content ul li {
+  list-style: none;
+}
+.nav-content ul li.active {
+  background: rgba(255, 255, 255, 20%);
+  height: 8rem;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+.nav-content ul li a.menu-item {
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Oxanium", sans-serif;
+  text-decoration: none;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.nav-content .contact-btn {
+  background: rgb(142, 41, 249);
+  background: linear-gradient(
+    160deg,
+    rgba(142, 41, 249, 1) 0%,
+    rgba(84, 24, 147, 1) 100%
+  );
+  font-size: 2rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+.nav-content .contact-btn img {
+}
+.nav-content a {
+}
+.nav-content a img {
+}
