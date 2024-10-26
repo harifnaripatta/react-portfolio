@@ -3,8 +3,9 @@ import Navbar from "./Navbar/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className="wrapper">
       <Navbar />
+      <div className="container"></div>
     </div>
   );
 };

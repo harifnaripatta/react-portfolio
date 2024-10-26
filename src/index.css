@@ -7,17 +7,27 @@
 }
 body {
   color: #fff;
-  background-color: #060417;
+  /* background-color: #060417; */
+  background-color: #000;
   /* background: linear-gradient(90deg, #2949f9 100%, #8e29f9 100%); */
 }
 :root {
   font-size: 62.5%;
 }
 .wrapper {
-  max-width: 1240px;
-  margin: 0 auto;
+  background-image: url("./background-gradient.png");
+  background-size: cover;
 }
-
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
 /* .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
