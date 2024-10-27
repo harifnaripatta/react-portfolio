@@ -1,5 +1,6 @@
 .nav-wrapper {
-  background: rgba(255, 255, 255, 8%);
+  /* background: rgba(255, 255, 255, 8%); */
+  background: #050a22;
   position: sticky;
   top: 0;
   z-index: 998;

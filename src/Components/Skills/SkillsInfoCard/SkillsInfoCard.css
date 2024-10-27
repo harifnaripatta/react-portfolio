@@ -1,1 +1,36 @@
-skills
+.skills-info-card {
+  padding: 4rem 3rem 2rem 9rem;
+}
+.skills-info-content {
+}
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+}
+.percentage {
+}
+.skill-progress-bg {
+  width: 100%;
+  height: 0.5rem;
+  background: #8e29f9;
+  border-radius: 1rem;
+  margin: 1rem 0 2rem;
+  overflow: hidden;
+}
+.skill-progress {
+  width: 0%;
+  height: 1rem;
+  background: linear-gradient(
+    160deg,
+    rgba(142, 41, 249, 1) 0%,
+    rgba(84, 24, 147, 1) 100%
+  );
+  border-radius: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 800px) {
+  .skills-info-card {
+    padding: 6rem 4rem 4rem;
+  }
+}

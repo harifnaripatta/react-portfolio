@@ -36,3 +36,11 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const WORK_EXPERIENCE = [
+  {
+    title: "Senior Front",
+    date: " January 2022 - present",
+    responsibilities: ["load team", "implemented"],
+  },
+];

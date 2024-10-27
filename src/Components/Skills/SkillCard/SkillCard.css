@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  padding-left: 3rem;
 }
 .skill-icon {
   width: 3rem;
@@ -11,4 +12,10 @@
 }
 .skill-card > span {
   font-size: 2rem;
+}
+.skill-card.active {
+  background-color: rgb(113, 109, 125);
+  width: 100%;
+  padding: 0.5rem 0;
+  padding-left: 3rem;
 }
