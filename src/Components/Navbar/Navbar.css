@@ -2,6 +2,7 @@
   background: rgba(255, 255, 255, 8%);
   position: sticky;
   top: 0;
+  z-index: 998;
 }
 .nav-content {
   display: flex;
@@ -105,7 +106,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .nav-content .menu-btn {
     display: block;
     margin: 0 0.5rem;

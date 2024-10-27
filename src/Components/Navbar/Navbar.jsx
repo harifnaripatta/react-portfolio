@@ -41,7 +41,7 @@ const Navbar = () => {
                 </a>
               </li>
               <div className="nav-btn">
-                <button className="contact-btn">
+                <button className="btn">
                   Hire Me
                   <img src="/arrow-up-right.svg" alt="arrow up light" />
                 </button>
@@ -53,9 +53,9 @@ const Navbar = () => {
 
             <button className="menu-btn" onClick={toggleMenu}>
               {openMenu ? (
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
               ) : (
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
               )}
             </button>
           </div>

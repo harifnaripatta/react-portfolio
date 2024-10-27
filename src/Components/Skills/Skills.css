@@ -1,0 +1,28 @@
+.skills-container {
+  margin: 5rem 0;
+}
+.skills-container h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.skills-container p {
+  width: 40rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.skills-content {
+  display: flex;
+}
+.skills {
+  width: 40%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3rem 3rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.skills-info {
+  width: 50%;
+}

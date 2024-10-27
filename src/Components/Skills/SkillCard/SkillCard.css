@@ -1,0 +1,14 @@
+.skill-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.skill-icon {
+  width: 3rem;
+}
+.skill-icon img {
+  width: 100%;
+}
+.skill-card > span {
+  font-size: 2rem;
+}

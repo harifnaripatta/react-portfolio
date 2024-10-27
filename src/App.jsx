@@ -1,11 +1,16 @@
 import React from "react";
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
+import Skills from "./Components/Skills/Skills";
 
 const App = () => {
   return (
     <div className="wrapper">
       <Navbar />
-      <div className="container"></div>
+      <div className="container">
+        <Hero />
+        <Skills />
+      </div>
     </div>
   );
 };
