@@ -1,7 +1,6 @@
 import "./SkillCard.css";
 
 const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
-  console.log(iconUrl);
   return (
     <div
       className={`skill-card ${isActive ? "active" : ""}`}

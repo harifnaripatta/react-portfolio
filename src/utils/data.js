@@ -39,8 +39,43 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
-    title: "Senior Front",
+    title: "Senior Front End Developer",
     date: " January 2022 - present",
-    responsibilities: ["load team", "implemented"],
+    responsibilities: [
+      "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+      "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+      "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+      "Introduced and integrated Vue.is into the tech stack, improving code maintainability and development efficiency.",
+    ],
+  },
+  {
+    title: "Senior Front End Developer",
+    date: " January 2022 - present",
+    responsibilities: [
+      "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+      "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+      "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+      "Introduced and integrated Vue.is into the tech stack, improving code maintainability and development efficiency.",
+    ],
+  },
+  {
+    title: "Senior Front End Developer",
+    date: " January 2022 - present",
+    responsibilities: [
+      "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+      "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+      "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+      "Introduced and integrated Vue.is into the tech stack, improving code maintainability and development efficiency.",
+    ],
+  },
+  {
+    title: "Senior Front End Developer",
+    date: " January 2022 - present",
+    responsibilities: [
+      "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% increase in user satisfaction.",
+      "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
+      "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web applications.",
+      "Introduced and integrated Vue.is into the tech stack, improving code maintainability and development efficiency.",
+    ],
   },
 ];

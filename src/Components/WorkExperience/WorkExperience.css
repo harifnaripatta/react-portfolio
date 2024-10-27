@@ -1,0 +1,25 @@
+.experience-container {
+  margin: 6rem 0rem;
+}
+.experience-container h5 {
+  font-size: 3.2rem;
+  margin-bottom: 1.5rem;
+}
+.experience-container p {
+  width: 45rem;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.experience-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+/* Responsive */
+@media (max-width: 800px) {
+  .experience-container h5,
+  .experience-container p {
+    margin: 0rem 2rem 2rem;
+  }
+}

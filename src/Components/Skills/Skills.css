@@ -34,13 +34,13 @@
   border: 4px solid #8e29f9;
   border-radius: 2rem;
   width: 60%;
-  height: 310px;
+  height: 325px;
 }
 /* Responsive */
 
 @media (max-width: 800px) {
   .skills-container {
-    height: 750px;
+    height: 700px;
   }
   .skills-content {
     flex-direction: column;
