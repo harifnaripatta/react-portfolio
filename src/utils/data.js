@@ -85,7 +85,7 @@ export const PROJECTS = [
     id: 1,
     title: "Finance",
     category: "Web development",
-    image: "images/project-1.jpg",
+    image: "./my-portfolio.png",
   },
   {
     id: 2,
