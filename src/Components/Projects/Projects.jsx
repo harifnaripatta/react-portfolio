@@ -47,6 +47,8 @@ const Projects = () => {
                   title={project.title}
                   category={project.category}
                   img={project.image}
+                  live={project.live}
+                  git={project.git}
                 />
               </li>
             ))}
@@ -54,7 +56,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="hero-line">
-        <img src="./bottom-line-right.png" alt="bottom-line-right" />
+        <img src="./bottom-line-left.png" alt="bottom-line-right" />
       </div>
     </>
   );
