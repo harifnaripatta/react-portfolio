@@ -1,13 +1,22 @@
 import React from "react";
 import "./ProjectsCard.css";
 
-const ProjectsCard = ({ project }) => {
-  // console.log(project);
+const ProjectsCard = ({ id, title, category, img }) => {
   return (
     <div className="projects-card-container">
-      <img src="{project.image}" alt="image" />
-      <h4>{project.title}</h4>
-      <p>{project.category}</p>
+      <img src={`./assets/images/project/${img}`} alt={title} />
+      <dir className="card-content">
+        <h4>{title}</h4>
+        <p>{category}</p>
+        <dir className="card-link">
+          <a className="card-link-live" href="#">
+            Live Preview
+          </a>
+          <a className="card-link-github" href="#">
+            Github Link
+          </a>
+        </dir>
+      </dir>
     </div>
   );
 };

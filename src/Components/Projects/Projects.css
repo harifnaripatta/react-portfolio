@@ -1,0 +1,81 @@
+.projects-container {
+  margin: 5rem auto;
+}
+.projects-content {
+}
+.projects-content h4 {
+  font-size: 3.2rem;
+  margin-bottom: 0.5rem;
+}
+.projects-content p {
+  font-size: 1.6rem;
+  display: inline-block;
+  width: 45rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+}
+
+.projects-btn {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.projects-btn li {
+  list-style: none;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+.projects-btn li a {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.projects-btn li .active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.project-card {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project-card li {
+  width: 30%;
+  border-radius: 1.5rem;
+  list-style: none;
+}
+
+@media (max-width: 900px) {
+  .project-card li {
+    width: 40%;
+    margin: 0rem 2rem;
+  }
+  .projects-btn {
+    gap: 1.5rem;
+  }
+  .projects-btn li a {
+    padding: 1rem 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .projects-btn {
+    gap: 0.5rem;
+  }
+  .projects-btn li {
+    margin-bottom: 1rem;
+  }
+  .projects-btn li a {
+    padding: 0.5rem 1rem;
+  }
+  .project-card li {
+    width: 100%;
+  }
+  .projects-btn li a {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  .projects-content p {
+    width: 100%;
+  }
+}

@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="hero-container">
         <div className="hero-img">
-          <img src="./assets/images/hero-img.png" alt="hero img" />
+          <img src="./assets/images/hero/hero-img.png" alt="hero-img" />
         </div>
         <div className="hero-content animate__animated animate__backInRight">
           <h1>

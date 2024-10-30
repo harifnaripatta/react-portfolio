@@ -28,27 +28,33 @@ const Projects = () => {
             Visually Stunning Web Solutions
           </p>
           <ul className="projects-btn">
-            {["All", "Web design", "Web development"].map((category) => (
+            {["All", "HTML/CSS", "React", "Node.js", "MERN"].map((category) => (
               <li>
-                <button
+                <a
                   onClick={() => handleFilterClick(category)}
                   className={category === selectedCateroty ? "active" : ""}
                 >
                   {category}
-                </button>
+                </a>
               </li>
             ))}
           </ul>
-          <div className="project-card">
-            <ul>
-              {filteredProjects.map((project) => (
-                <li>
-                  <ProjectsCard project={project} />
-                </li>
-              ))}
-            </ul>
-          </div>
+          <ul className="project-card">
+            {filteredProjects.map((project) => (
+              <li>
+                <ProjectsCard
+                  id={project.id}
+                  title={project.title}
+                  category={project.category}
+                  img={project.image}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
+      </div>
+      <div className="hero-line">
+        <img src="./bottom-line-right.png" alt="bottom-line-right" />
       </div>
     </>
   );

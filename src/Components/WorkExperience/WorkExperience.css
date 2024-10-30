@@ -18,8 +18,11 @@
 }
 /* Responsive */
 @media (max-width: 800px) {
-  .experience-container h5,
+  /* .experience-container h5,
   .experience-container p {
     margin: 0rem 2rem 2rem;
+  } */
+  .experience-container p {
+    width: 100%;
   }
 }

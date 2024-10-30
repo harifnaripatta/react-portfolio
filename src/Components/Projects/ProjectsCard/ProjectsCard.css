@@ -1,0 +1,48 @@
+.projects-card-container {
+  padding-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #8e29f9;
+  border-radius: 1.5rem;
+}
+.projects-card-container img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1.5rem 1.5rem 0 0;
+  margin-bottom: 0.5rem;
+}
+.card-content {
+  padding: 0rem 1.5rem;
+}
+.card-content h4 {
+  font-size: 1.6rem;
+}
+.card-content p {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100%;
+}
+.card-link {
+}
+.card-link a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.card-link-live {
+  background: linear-gradient(
+    160deg,
+    rgba(142, 41, 249, 1) 0%,
+    rgba(84, 24, 147, 1) 100%
+  );
+  color: #fff;
+  padding: 1rem 1.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+}
+.card-link-github {
+  border: 1px solid #8e29f9;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}

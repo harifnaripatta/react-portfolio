@@ -7,7 +7,7 @@ const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
       onClick={() => onClick()}
     >
       <div className="skill-icon">
-        <img src={`./assets/images/${iconUrl}`} alt={title} />
+        <img src={`./assets/images/skill/${iconUrl}`} alt={title} />
       </div>
       <span>{title}</span>
     </div>
