@@ -36,7 +36,8 @@
 .project-card {
   display: flex;
   gap: 3rem;
-  justify-content: space-evenly;
+  margin: 0 auto;
+  /* justify-content: space-evenly; */
   flex-wrap: wrap;
 }
 

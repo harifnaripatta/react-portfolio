@@ -1,0 +1,73 @@
+.contact-form-container {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.027);
+  padding: 2rem 1.5rem 1rem;
+  border-radius: 1.5rem;
+}
+form {
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+form div label {
+  font-size: 1.6rem;
+}
+form div input {
+  background-color: rgba(255, 255, 255, 0.034);
+  padding: 1.2rem 2rem;
+  border: 1px solid #ffffff6e;
+  outline: none;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.selection-container {
+  position: relative;
+}
+.selection-container select {
+  background-color: rgba(255, 255, 255, 0.034);
+  padding: 1.2rem 1.5rem;
+  border: 1px solid #ffffff6e;
+  outline: none;
+  border-radius: 1rem;
+  color: #ffffff70;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  appearance: none;
+}
+.selection-container select option {
+  background-color: transparent;
+}
+.selection-container i {
+  font-size: 2rem;
+  position: absolute;
+  top: 3rem;
+  right: 3%;
+}
+
+.textarea-container {
+  margin-bottom: 1.5rem;
+}
+.textarea-container textarea {
+  background-color: rgba(255, 255, 255, 0.034);
+  padding: 1.2rem 1.5rem;
+  border: 1px solid #ffffff6e;
+  font-size: 1.6rem;
+  outline: none;
+  border-radius: 1rem;
+  color: #ffffff70;
+}
+input[type="submit"] {
+  background: linear-gradient(
+    160deg,
+    rgba(142, 41, 249, 1) 0%,
+    rgba(84, 24, 147, 1) 100%
+  );
+  border: none;
+}
+::placeholder {
+  color: #ffffff70;
+  font-size: 1.6rem;
+}

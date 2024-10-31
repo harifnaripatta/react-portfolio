@@ -10,6 +10,9 @@ body {
   background-color: #000;
   font-family: "Oxanium", sans-serif;
 }
+a {
+  color: #fff;
+}
 :root {
   font-size: 62.5%;
 }
