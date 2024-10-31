@@ -7,10 +7,19 @@ const Navbar = () => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
+  const [theme, setTheme] = useState();
+  const bodyStyle = {
+    backgroundColor: theme === "light" ? "white" : "black",
+    color: theme === "light" ? "black" : "white",
+  };
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
     <>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
-      <nav className="nav-wrapper">
+      <nav className="nav-wrapper" style={bodyStyle}>
         <div className="container">
           <div className="nav-content">
             <div className="nav-logo">
@@ -46,7 +55,12 @@ const Navbar = () => {
                   <img src="/arrow-up-right.svg" alt="arrow up light" />
                 </button>
                 <a href="#">
-                  <img src="/light-theme.svg" alt="" />
+                  <img
+                    src="/light-theme.svg"
+                    alt="light"
+                    onClick={toggleTheme}
+                  />
+                  {}
                 </a>
               </div>
             </ul>
