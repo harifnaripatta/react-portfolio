@@ -9,7 +9,7 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper dark">
       <Navbar />
       <div className="container">
         <Hero />

@@ -8,18 +8,19 @@ const Navbar = () => {
     setOpenMenu(!openMenu);
   };
   const [theme, setTheme] = useState();
-  const bodyStyle = {
-    backgroundColor: theme === "light" ? "white" : "black",
-    color: theme === "light" ? "black" : "white",
-  };
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
-  };
-
+  // const bodyStyle = {
+  //   backgroundColor: theme === "light" ? "white" : "black",
+  //   color: theme === "light" ? "black" : "white",
+  // };
+  // const toggleTheme = () => {
+  //   setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  //   // setTheme(!theme);
+  // };
+  // ${theme === "dark" ? "dark" : "light"}
   return (
     <>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
-      <nav className="nav-wrapper" style={bodyStyle}>
+      <nav className={"nav-wrapper"}>
         <div className="container">
           <div className="nav-content">
             <div className="nav-logo">
@@ -56,11 +57,11 @@ const Navbar = () => {
                 </button>
                 <a href="#">
                   <img
-                    src="/light-theme.svg"
-                    alt="light"
-                    onClick={toggleTheme}
+                    src={`${
+                      theme === "dark" ? "/dark-theme.svg" : "/light-theme.svg"
+                    }`}
+                    alt="dark"
                   />
-                  {}
                 </a>
               </div>
             </ul>

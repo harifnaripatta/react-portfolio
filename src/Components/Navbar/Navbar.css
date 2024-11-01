@@ -1,6 +1,7 @@
 .nav-wrapper {
-  background: rgba(255, 255, 255, 0.253);
-  /* background: #050a22; */
+  /* background: rgba(255, 255, 255, 0.426); */
+  /* background: rgba(255, 255, 255, 0.253); */
+  background: #050a22;
   position: sticky;
   top: 0;
   z-index: 998;
@@ -53,7 +54,7 @@
   gap: 2rem;
 }
 .nav-content .nav-btn .contact-btn {
-  background: rgb(142, 41, 249);
+  /* background: rgb(142, 41, 249); */
   background: linear-gradient(
     160deg,
     rgba(142, 41, 249, 1) 0%,
@@ -139,4 +140,11 @@
   .nav-content .nav-btn .contact-btn {
     font-size: 1.7rem;
   }
+}
+.nav-wrapper.dark {
+  background-color: #000;
+  color: #fff;
+}
+.nav-wrapper.dark .nav-content ul li a.menu-item {
+  color: #fff;
 }
